@@ -40,3 +40,8 @@ var newName = Console.ReadLine();
 
 repo.UpdateProduct(prodID, newName);
 
+Console.WriteLine("What is the productID you want to delete?");
+prodID = int.Parse(Console.ReadLine());
+
+repo.DeleteProduct(prodID);
+
